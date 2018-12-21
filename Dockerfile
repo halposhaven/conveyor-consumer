@@ -13,5 +13,5 @@ VOLUME ["/etc", "/var/cache/samba", "/var/lib/samba", "/var/log/samba",\
             "/run/samba"]
 COPY smb.conf /etc/samba/
 
-CMD ["/usr/bin/samba.sh"]
+CMD ["./samba.sh"]
 
