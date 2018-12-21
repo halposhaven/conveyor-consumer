@@ -9,5 +9,5 @@ RUN apt-get update && apt-get install -y \
 EXPOSE 137/udp 138/udp 139 445
 
 
-ENTRYPOINT ["/bin/bash"]
+CMD ["bash"]
 
