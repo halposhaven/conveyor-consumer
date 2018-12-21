@@ -8,7 +8,5 @@ RUN apt-get update && apt-get install -y \
 
 EXPOSE 137/udp 138/udp 139 445
 
-HEALTHCHECK --interval=60s --timeout=15s \
-            CMD smbclient -L '\\localhost' -U '%' -m SMB3
 
 
