@@ -13,5 +13,5 @@ VOLUME ["/etc", "/var/cache/samba", "/var/lib/samba", "/var/log/samba",\
             "/run/samba"]
 COPY smb.conf /etc/samba/
 
-CMD ["which tint"]
+CMD ["/usr/bin/samba.sh"]
 
