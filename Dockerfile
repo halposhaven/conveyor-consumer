@@ -1,4 +1,4 @@
-FROM Ubuntu
+FROM ubuntu
 MAINTAINER Matt Jones <matt@starchup.com>
 
 # Install samba utilitys
