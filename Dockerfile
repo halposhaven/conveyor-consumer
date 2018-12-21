@@ -1,5 +1,5 @@
-FROM alpine
-MAINTAINER David Personette <dperson@gmail.com>
+FROM ubuntu
+MAINTAINER Matt Jones <matt@starchup.com>
 
 # Install samba
 RUN apk --no-cache --no-progress upgrade && \
