@@ -12,6 +12,7 @@ EXPOSE 137/udp 138/udp 139 445
 VOLUME ["/etc", "/var/cache/samba", "/var/lib/samba", "/var/log/samba",\
             "/run/samba"]
 COPY smb.conf /etc/samba/
+COPY samba.sh /sbin/samba.sh
 
-CMD ["./samba.sh"]
+CMD ["/sbin/samba.sh"]
 
